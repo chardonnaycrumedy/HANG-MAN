@@ -16,17 +16,11 @@ class MyApp:
 #line = drawpad.create_line(400,190,380,400, fill = "black")   #left arm
 #rectangle = drawpad.create_rectangle(410,400,430,460, fill = "black")
 #rectangle = drawpad.create_rectangle(480,400,500,460, fill = "black")
-wordbank = [porcupine, baboon, eagle, lamb, cow, beaver, camel, cat, clam, cobra, bat, coyote, crow, deer, dog, donkey, duck, eagle, ferret, fox, frog, goat, goose, hawk, lion, lizard, llama, mole, monkey, moose, mouse, mule, newt, otter, owl, panda, parrot, pigeon, python, rabbit, ram, rat, raven, rhino, salmon, seal, shark, sheep, skunk, sloth, snake, spider, stork, swan, tiger, toad, trout, turkey, turtle, weasel, whale, wolf, wombat, zebra]
-if raw_input() == i in wordbank:
-    print correct
-else:
-    print wrong
-def getRandomWord(wordbank):
-    # This function returns a random string from the passed list of strings.
-    index = random.randint(0, len(wordbank) - 1)
-    return wordList[wordIndex]
 
+wordbank = ['s, t, r, a, w, b, b, e, r, r, y'] 
 
+for item in wordbank:
+    print wordbank
 print "Topic is Fruit"
 while True:
     answer = raw_input()
