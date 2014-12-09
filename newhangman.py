@@ -38,6 +38,35 @@ class MyApp:
       		            print "/"
       		            print "TRY AGAIN HAHAHA"
       		            print "______________"
+      		             if counter == 4:
+      		            print " O"
+      		            print " |"
+      		            print " |"
+      		            print "/ \ "
+      		            print "TRY AGAIN HAHAHA"
+      		            print "______________"
+      		        if counter == 5:
+      		            print " O"
+      		            print " |"
+      		            print " |"
+      		            print "/ \ "
+      		            print "TRY AGAIN HAHAHA"
+      		            print "______________"
+      		        if counter == 6:
+      		            print " O "
+      		            print "/|"
+      		            print " |"
+      		            print "/ \ "
+      		            print "TRY AGAIN HAHAHA"
+      		            print "______________"
+      		        if counter == 7:
+      		            print " O "
+      		            print "/|\ "
+      		            print " |"
+      		            print "/ \ "
+      		            print "TRY AGAIN HAHAHA"
+      		            print "______________"
+      		            
 #------------------BUNCH OF GARBAGE WE SHOULD NOT TOUCH------------
 #oval = drawpad.create_oval(420,90,490,190, fill = "black")  #head
 #rectangle = drawpad.create_rectangle(400,190,510,400, fill = "black")  #body
